@@ -23,7 +23,7 @@ async function add(hacker) {
 }
 
 function findBy(filter) {
-    return db('hackers').where({filter});
+    return db('hackers').where(filter);
 }
 
 function update(updatedHacker, id) {
